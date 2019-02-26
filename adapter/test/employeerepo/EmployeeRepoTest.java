@@ -13,6 +13,6 @@ public class EmployeeRepoTest {
         emp.addEmployee(new EmployeeDB("1", "nitin", "kumar", "nitin@kumar.com"));
 
         String empList = emp.getEmployees();
-        assertEquals("", empList);
+        assertEquals("Employee(1, nitin, kumar, nitin@kumar.com)\n", empList);
     }
 }
