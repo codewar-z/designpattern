@@ -1,4 +1,4 @@
-package calculator;
+package calculator2;
 
 /**
  * simple.CareTaker object
@@ -8,7 +8,7 @@ public class CalculatorMementoPatternDemo {
     public static void main(String[] args) {
 
         // program starts
-        Calculator calculator = new CalculatorImp();
+        calculator2.Calculator calculator = new CalculatorImp();
 
         // assume user enters two numbers
         calculator.setFirstNumber(10);

@@ -1,9 +1,9 @@
-package calculator;
+package calculator2;
 
 /**
  * simple.Originator Implementation
  */
-public class CalculatorImp implements Calculator {
+public class CalculatorImp implements calculator2.Calculator {
 
     private int firstNumber;
     private int secondNumber;

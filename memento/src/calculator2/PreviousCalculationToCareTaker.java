@@ -1,4 +1,4 @@
-package calculator;
+package calculator2;
 
 /**
  *  simple.Memento interface to CalculatorOperator (Caretaker)
